@@ -23,7 +23,9 @@ public class SQLFunctions
     {
         await using (var context = new LibrandriaDbContext())
         {
-            CurrentUser = context.Users.First(u => u.Username == username && u.Password == password).IdText;
+            CurrentUser = context.Users
+                .Where(u => u.Username == username && u.Password == password)
+                .Select(u => u.IdText).FirstOrDefault();
         }
     }
 }

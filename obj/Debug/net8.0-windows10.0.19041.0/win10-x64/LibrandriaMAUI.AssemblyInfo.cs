@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibrandriaMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8b641c327786bf73852671ffe29aa37597b3b5df")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibrandriaMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibrandriaMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

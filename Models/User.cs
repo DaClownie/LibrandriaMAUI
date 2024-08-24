@@ -18,4 +18,12 @@ public partial class User
     public DateTime DateCreated { get; set; }
 
     public DateTime DateModified { get; set; }
+
+    public User(string username, string password, string email)
+    {
+        Id = Guid.NewGuid();
+        Username = username;
+        Password = password;
+        Email = email;
+    }
 }

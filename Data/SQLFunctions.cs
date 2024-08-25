@@ -6,7 +6,6 @@ namespace LibrandriaMAUI.Data;
 
 public class SQLFunctions
 {
-    public static string? CurrentUser { get; set; }
     // User Functions
     public static async Task AddNewUser(string username, string password, string email)
     {
@@ -23,9 +22,30 @@ public class SQLFunctions
     {
         await using (var context = new LibrandriaDbContext())
         {
-            CurrentUser = context.Users
+            DataObjects.CurrentUser = context.Users
                 .Where(u => u.Username == username && u.Password == password)
                 .Select(u => u.IdText).FirstOrDefault();
         }
     }
+    
+    // Terms Functionality
+    public static async Task LoadTermList()
+    {
+        await using (var context = new LibrandriaDbContext())
+        {
+            DataObjects.TermList.Clear();
+            DataObjects.TermList = context.Terms
+                .Where(t => t.UserId == DataObjects.CurrentUser).ToList();
+        }
+    }
+    
+    public static async Task GetTermInfo(string termId)
+    {
+        await LoadTermList();
+        var term = DataObjects.TermList
+            .Find(t => t.IdText == termId);
+        DataObjects.CurrentTerm = term.IdText;
+        //TODO Possibly need to handle null?
+    }
+    
 }

@@ -11,7 +11,7 @@ public partial class Assessment
 
     public int Type { get; set; }
 
-    public Guid CourseId { get; set; }
+    public string CourseId { get; set; }
 
     public DateTime DateStart { get; set; }
 

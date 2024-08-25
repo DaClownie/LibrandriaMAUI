@@ -53,6 +53,7 @@ public partial class LibrandriaDbContext : DbContext
                 .HasMaxLength(36)
                 .HasComputedColumnSql("insert(insert(insert(insert(hex(`Id`),9,0,_utf8mb4'-'),14,0,_utf8mb4'-'),19,0,_utf8mb4'-'),24,0,_utf8mb4'-')", false);
             entity.Property(e => e.Name).HasMaxLength(64);
+            entity.Property(e => e.CourseId).HasMaxLength(36);
         });
 
         modelBuilder.Entity<Course>(entity =>
@@ -71,6 +72,10 @@ public partial class LibrandriaDbContext : DbContext
                 .HasMaxLength(36)
                 .HasComputedColumnSql("insert(insert(insert(insert(hex(`id`),9,0,_utf8mb4'-'),14,0,_utf8mb4'-'),19,0,_utf8mb4'-'),24,0,_utf8mb4'-')", false);
             entity.Property(e => e.Name).HasMaxLength(64);
+            entity.Property(e => e.TermId).HasMaxLength(36);
+            entity.Property(e => e.InstructorId).HasMaxLength(36);
+            entity.Property(e => e.ObjectiveAssessmentId).HasMaxLength(36);
+            entity.Property(e => e.PerformanceAssessmentId).HasMaxLength(36);
         });
 
         modelBuilder.Entity<Instructor>(entity =>
@@ -88,6 +93,7 @@ public partial class LibrandriaDbContext : DbContext
             entity.Property(e => e.InstructorEmail).HasMaxLength(64);
             entity.Property(e => e.InstructorName).HasMaxLength(64);
             entity.Property(e => e.InstructorPhone).HasMaxLength(10);
+            entity.Property(e => e.IdText).HasMaxLength(36);
         });
 
         modelBuilder.Entity<Term>(entity =>
@@ -106,6 +112,7 @@ public partial class LibrandriaDbContext : DbContext
                 .HasComputedColumnSql("insert(insert(insert(insert(hex(`id`),9,0,_utf8mb4'-'),14,0,_utf8mb4'-'),19,0,_utf8mb4'-'),24,0,_utf8mb4'-')", false);
             entity.Property(e => e.Name).HasMaxLength(64);
             entity.Property(e => e.StartDate).HasColumnType("datetime");
+            entity.Property(e => e.UserId).HasMaxLength(36);
         });
 
         modelBuilder.Entity<User>(entity =>

@@ -12,6 +12,8 @@ public partial class Instructor
     public string InstructorPhone { get; set; } = null!;
 
     public string InstructorEmail { get; set; } = null!;
+    
+    public string IdText { get; set; }
 
     public DateTime DateCreated { get; set; }
 

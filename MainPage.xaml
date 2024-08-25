@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LibrandriaMAUI.MainPage"
-             BackgroundColor="LightGray"
-             Shell.NavBarIsVisible="False">
+             xmlns:viewmodel="clr-namespace:LibrandriaMAUI.ViewModel"
+             x:DataType="viewmodel:MainViewModel">
     <ScrollView>
         <Grid
             Margin="20"
@@ -22,7 +22,6 @@
                 <Label
                     Text="Welcome to WGU on Librandria!"
                     Style="{StaticResource SubHeadline}"
-                    TextColor="{StaticResource PrimaryDarkText}"
                     SemanticProperties.HeadingLevel="Level2"
                     SemanticProperties.Description="Welcome to WGU on Librandria!" 
                     x:Name="SplashSubheading"/>
@@ -36,96 +35,12 @@
                     x:Name="RegisterButton"
                     Text="Register" 
                     SemanticProperties.Hint="Register for Librandria WGU"
-                    Clicked="RegisterButton_OnClicked"
-                    HorizontalOptions="Fill" />
+                    Command="{Binding TapRegisterCommand}" />
                 <Button 
                     x:Name="LoginButton"
                     Text="Login"
                     SemanticProperties.Hint="Sign in to Librandria WGU"
-                    Clicked="LoginButton_OnClicked"
-                    HorizontalOptions="Fill" />
-            </VerticalStackLayout>
-            <VerticalStackLayout
-                Padding="30,0"
-                Spacing="25"
-                x:Name="RegisterStack"
-                Grid.Row="1">
-                <Border
-                    StrokeThickness="2"
-                    BackgroundColor="{StaticResource PrimaryDarkText}">
-                    <Entry
-                        x:Name="UsernameRegisterEntry"
-                        Placeholder="Username"
-                        MaxLength="32"
-                        BackgroundColor="{StaticResource White}"
-                        PlaceholderColor="{StaticResource Gray500}" />
-                </Border>
-                <Border
-                    StrokeThickness="2"
-                    BackgroundColor="{StaticResource PrimaryDarkText}">
-                    <Entry
-                        x:Name="PasswordRegisterEntry"
-                        Placeholder="Password"
-                        IsPassword="True"
-                        MaxLength="32"
-                        BackgroundColor="{StaticResource White}"
-                        PlaceholderColor="{StaticResource Gray500}" />
-                </Border>
-                <Border
-                    StrokeThickness="2"
-                    BackgroundColor="{StaticResource PrimaryDarkText}">
-                    <Entry
-                        x:Name="EmailRegisterEntry"
-                        Placeholder="Email"
-                        MaxLength="64"
-                        BackgroundColor="{StaticResource White}"
-                        PlaceholderColor="{StaticResource Gray500}" />
-                </Border>
-            </VerticalStackLayout>
-            <VerticalStackLayout
-                Padding="30,0"
-                Spacing="25"
-                x:Name="LoginStack"
-                Grid.Row="1">
-                <Border
-                    StrokeThickness="2"
-                    BackgroundColor="{StaticResource PrimaryDarkText}">
-                    <Entry
-                        x:Name="UsernameLoginEntry"
-                        Placeholder="Username"
-                        MaxLength="32"
-                        BackgroundColor="{StaticResource White}"
-                        PlaceholderColor="{StaticResource Gray500}" />
-                </Border>
-                <Border
-                    StrokeThickness="2"
-                    BackgroundColor="{StaticResource PrimaryDarkText}">
-                    <Entry
-                        x:Name="PasswordLoginEntry"
-                        Placeholder="Password"
-                        IsPassword="True"
-                        MaxLength="32"
-                        BackgroundColor="{StaticResource White}"
-                        PlaceholderColor="{StaticResource Gray500}" />
-                </Border>
-            </VerticalStackLayout>
-            <VerticalStackLayout
-                Padding="30,0"
-                Spacing="25"
-                x:Name="ButtonStack"
-                Grid.Row="2">
-                <Button
-                    x:Name="SubmitButton"
-                    Text="Submit"
-                    TextColor="{StaticResource White}"
-                    FontAttributes="Bold"
-                    Clicked="SubmitButton_OnClicked" />
-                <Button
-                    x:Name="BackButton"
-                    Text="Back"
-                    TextColor="{StaticResource White}"
-                    FontAttributes="Bold"
-                    Clicked="BackButton_OnClicked" />
+                    Command="{Binding TapLoginCommand}" />
             </VerticalStackLayout>
         </Grid>
     </ScrollView>

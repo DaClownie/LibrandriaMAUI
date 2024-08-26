@@ -29,14 +29,11 @@ public class SQLFunctions
     }
     
     // Terms Functionality
-    public static async Task LoadTermList()
+    public static async Task<List<Term>> LoadTermList()
     {
-        await using (var context = new LibrandriaDbContext())
-        {
-            DataObjects.TermList.Clear();
-            DataObjects.TermList = context.Terms
-                .Where(t => t.UserId == DataObjects.CurrentUser).ToList();
-        }
+        await using var context = new LibrandriaDbContext();
+        return await  context.Terms
+            .Where(t => t.UserId == DataObjects.CurrentUser).ToListAsync();
     }
     
     public static async Task GetTermInfo(string termId)

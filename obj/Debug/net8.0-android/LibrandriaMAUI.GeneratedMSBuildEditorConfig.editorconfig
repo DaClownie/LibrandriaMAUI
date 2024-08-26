@@ -12,36 +12,60 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibrandriaMAUI
-build_property.ProjectDir = E:\WGU\Capstone\LibrandriaMAUI\
+build_property.ProjectDir = /Users/danny/dev/Librandria/LibrandriaMAUI/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[E:/WGU/Capstone/LibrandriaMAUI/App.xaml]
+[/Users/danny/dev/Librandria/LibrandriaMAUI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[E:/WGU/Capstone/LibrandriaMAUI/AppShell.xaml]
+[/Users/danny/dev/Librandria/LibrandriaMAUI/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[E:/WGU/Capstone/LibrandriaMAUI/MainPage.xaml]
+[/Users/danny/dev/Librandria/LibrandriaMAUI/CoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.CoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CoursesPage.xaml
+
+[/Users/danny/dev/Librandria/LibrandriaMAUI/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[/Users/danny/dev/Librandria/LibrandriaMAUI/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[E:/WGU/Capstone/LibrandriaMAUI/Resources/Styles/Colors.xaml]
+[/Users/danny/dev/Librandria/LibrandriaMAUI/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
+
+[/Users/danny/dev/Librandria/LibrandriaMAUI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.Resources.Styles.Colors.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[E:/WGU/Capstone/LibrandriaMAUI/Resources/Styles/Styles.xaml]
+[/Users/danny/dev/Librandria/LibrandriaMAUI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.Resources.Styles.Styles.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/danny/dev/Librandria/LibrandriaMAUI/TermsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.TermsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TermsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TermsPage.xaml

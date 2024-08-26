@@ -29,25 +29,25 @@
     <AppXManifest Include="E:\WGU\Capstone\LibrandriaMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-08-23T20:27:19.509</Modified>
+      <Modified>2024-08-24T01:44:30.584</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-08-23T20:27:19.350</Modified>
+      <Modified>2024-08-23T23:55:40.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\LibrandriaMAUI.runtimeconfig.json">
       <PackagePath>LibrandriaMAUI.runtimeconfig.json</PackagePath>
-      <Modified>2024-08-23T20:27:19.252</Modified>
+      <Modified>2024-08-23T23:55:40.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\LibrandriaMAUI.dll">
       <PackagePath>LibrandriaMAUI.dll</PackagePath>
-      <Modified>2024-08-23T20:27:18.776</Modified>
+      <Modified>2024-08-24T01:44:29.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>LibrandriaMAUI.exe</PackagePath>
-      <Modified>2024-08-23T20:27:18.781</Modified>
+      <Modified>2024-08-24T01:44:29.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-08-23T20:27:17.122</Modified>
+      <Modified>2024-08-23T23:52:10.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-08-23T20:27:17.132</Modified>
+      <Modified>2024-08-23T23:52:10.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-08-23T20:27:17.146</Modified>
+      <Modified>2024-08-23T23:52:10.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-08-23T20:27:17.167</Modified>
+      <Modified>2024-08-23T23:52:10.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-08-23T20:27:17.254</Modified>
+      <Modified>2024-08-23T23:52:10.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -81,209 +81,213 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-08-23T17:45:18.346</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.346</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
+      <Modified>2024-08-23T23:52:11.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.347</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.348</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-08-23T20:27:18.349</Modified>
+      <Modified>2024-08-23T23:52:11.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wgulogo.scale-100.png">
+      <PackagePath>wgulogo.scale-100.png</PackagePath>
+      <Modified>2024-08-23T23:52:11.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Daniel\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -599,7 +603,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\WGU\Capstone\LibrandriaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\LibrandriaMAUI.deps.json">
       <PackagePath>LibrandriaMAUI.deps.json</PackagePath>
-      <Modified>2024-08-23T20:27:19.456</Modified>
+      <Modified>2024-08-23T23:55:40.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Daniel\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
       <PackagePath>Humanizer.dll</PackagePath>

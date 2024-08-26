@@ -7,7 +7,9 @@ public partial class Course
 {
     public Guid Id { get; set; }
 
-    public Guid TermId { get; set; }
+    public string TermId { get; set; }
+    
+    public string UserId { get; set; }
 
     public string Name { get; set; } = null!;
 
@@ -17,13 +19,13 @@ public partial class Course
 
     public int Status { get; set; }
 
-    public Guid InstructorId { get; set; }
+    public string InstructorId { get; set; }
 
     public string? Notes { get; set; }
 
-    public Guid? ObjectiveAssessmentId { get; set; }
+    public string? ObjectiveAssessmentId { get; set; }
 
-    public Guid? PerformanceAssessmentId { get; set; }
+    public string? PerformanceAssessmentId { get; set; }
 
     public sbyte? NotificationStart { get; set; }
 

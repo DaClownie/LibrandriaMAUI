@@ -29,7 +29,7 @@ public partial class LibrandriaDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseMySql("server=35.215.119.244;database=dbyhkioda9g5y0;user=u4z9lruz1u9gz;password=4t61ce@351j1;guidformat=Binary16", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.36-mysql"));
+        => optionsBuilder.UseMySql("server=35.215.119.244;database=dbyhkioda9g5y0;user=u4z9lruz1u9gz;password=4t61ce@351j1;guidformat=Binary16;ConvertZeroDateTime=True", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.36-mysql"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -53,6 +53,7 @@ public partial class LibrandriaDbContext : DbContext
                 .HasMaxLength(36)
                 .HasComputedColumnSql("insert(insert(insert(insert(hex(`Id`),9,0,_utf8mb4'-'),14,0,_utf8mb4'-'),19,0,_utf8mb4'-'),24,0,_utf8mb4'-')", false);
             entity.Property(e => e.Name).HasMaxLength(64);
+            entity.Property(e => e.CourseId).HasMaxLength(36);
         });
 
         modelBuilder.Entity<Course>(entity =>
@@ -71,6 +72,11 @@ public partial class LibrandriaDbContext : DbContext
                 .HasMaxLength(36)
                 .HasComputedColumnSql("insert(insert(insert(insert(hex(`id`),9,0,_utf8mb4'-'),14,0,_utf8mb4'-'),19,0,_utf8mb4'-'),24,0,_utf8mb4'-')", false);
             entity.Property(e => e.Name).HasMaxLength(64);
+            entity.Property(e => e.TermId).HasMaxLength(36);
+            entity.Property(e => e.InstructorId).HasMaxLength(36);
+            entity.Property(e => e.ObjectiveAssessmentId).HasMaxLength(36);
+            entity.Property(e => e.PerformanceAssessmentId).HasMaxLength(36);
+            entity.Property(e => e.UserId).HasMaxLength(36);
         });
 
         modelBuilder.Entity<Instructor>(entity =>
@@ -88,6 +94,7 @@ public partial class LibrandriaDbContext : DbContext
             entity.Property(e => e.InstructorEmail).HasMaxLength(64);
             entity.Property(e => e.InstructorName).HasMaxLength(64);
             entity.Property(e => e.InstructorPhone).HasMaxLength(10);
+            entity.Property(e => e.IdText).HasMaxLength(36);
         });
 
         modelBuilder.Entity<Term>(entity =>
@@ -106,6 +113,7 @@ public partial class LibrandriaDbContext : DbContext
                 .HasComputedColumnSql("insert(insert(insert(insert(hex(`id`),9,0,_utf8mb4'-'),14,0,_utf8mb4'-'),19,0,_utf8mb4'-'),24,0,_utf8mb4'-')", false);
             entity.Property(e => e.Name).HasMaxLength(64);
             entity.Property(e => e.StartDate).HasColumnType("datetime");
+            entity.Property(e => e.UserId).HasMaxLength(36);
         });
 
         modelBuilder.Entity<User>(entity =>

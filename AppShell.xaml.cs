@@ -5,6 +5,11 @@
 		public AppShell()
 		{
 			InitializeComponent();
+			
+			Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
+			Routing.RegisterRoute(nameof(RegisterPage), typeof(RegisterPage));
+			Routing.RegisterRoute(nameof(TermsPage), typeof(TermsPage));
+			Routing.RegisterRoute(nameof(CoursesPage), typeof(CoursesPage));
 		}
 	}
 }

@@ -13,7 +13,7 @@ public partial class Term
 
     public DateTime EndDate { get; set; }
 
-    public Guid StudentId { get; set; }
+    public string UserId { get; set; }
 
     public string? IdText { get; set; }
 

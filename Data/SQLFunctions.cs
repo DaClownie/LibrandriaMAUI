@@ -48,4 +48,11 @@ public class SQLFunctions
         //TODO Possibly need to handle null?
     }
     
+    // Course Functionality
+    public static async Task<List<Course>> LoadCourseList(string termId)
+    {
+        await using var context = new LibrandriaDbContext();
+        return await context.Courses
+            .Where(c => c.TermId == termId).ToListAsync();
+    }
 }

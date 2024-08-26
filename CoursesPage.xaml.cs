@@ -7,9 +7,9 @@ using LibrandriaMAUI.ViewModel;
 
 namespace LibrandriaMAUI;
 
-public partial class TermsPage : ContentPage
+public partial class CoursesPage : ContentPage
 {
-    public TermsPage(TermsViewModel vm)
+    public CoursesPage(CoursesViewModel vm)
     {
         InitializeComponent();
         BindingContext = vm;

@@ -28,6 +28,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.AppShell.xa
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[/Users/danny/dev/Librandria/LibrandriaMAUI/CoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.CoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CoursesPage.xaml
+
 [/Users/danny/dev/Librandria/LibrandriaMAUI/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibrandriaMAUI.LoginPage.xaml

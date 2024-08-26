@@ -76,6 +76,7 @@ public partial class LibrandriaDbContext : DbContext
             entity.Property(e => e.InstructorId).HasMaxLength(36);
             entity.Property(e => e.ObjectiveAssessmentId).HasMaxLength(36);
             entity.Property(e => e.PerformanceAssessmentId).HasMaxLength(36);
+            entity.Property(e => e.UserId).HasMaxLength(36);
         });
 
         modelBuilder.Entity<Instructor>(entity =>

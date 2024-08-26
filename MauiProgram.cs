@@ -24,8 +24,12 @@ namespace LibrandriaMAUI
 			
 			builder.Services.AddTransient<LoginPage>();
 			builder.Services.AddTransient<LoginViewModel>();
+
+			builder.Services.AddTransient<TermsPage>();
+			builder.Services.AddTransient<TermsViewModel>();
 			
-			
+			builder.Services.AddTransient<CoursesPage>();
+			builder.Services.AddTransient<CoursesViewModel>();
 			
 
 #if DEBUG

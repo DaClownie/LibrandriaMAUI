@@ -8,6 +8,8 @@ public partial class Course
     public Guid Id { get; set; }
 
     public string TermId { get; set; }
+    
+    public string UserId { get; set; }
 
     public string Name { get; set; } = null!;
 

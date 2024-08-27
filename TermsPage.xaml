@@ -4,12 +4,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LibrandriaMAUI.TermsPage"
              xmlns:viewmodel="clr-namespace:LibrandriaMAUI.ViewModel"
-             x:DataType="viewmodel:TermsViewModel">
+             x:DataType="viewmodel:TermsViewModel"
+             xmlns:model="clr-namespace:LibrandriaMAUI.Models">
     <CollectionView
         ItemsSource="{Binding Terms}"
         SelectionMode="None">
         <CollectionView.ItemTemplate>
-            <DataTemplate>
+            <DataTemplate x:DataType="model:Term">
                 <SwipeView>
                     <SwipeView.RightItems>
                         <SwipeItems>
@@ -27,7 +28,7 @@
                                        CommandParameter="{Binding IdText}" />
                         </SwipeItems>
                     </SwipeView.LeftItems>
-                    <Grid Padding="0,5">
+                    <Grid>
                         <Frame>
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TermsViewModel}}, Path=TapTermCommand}"

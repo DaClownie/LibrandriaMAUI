@@ -1,17 +1,17 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using LibrandriaMAUI.Data;
+using LibrandriaMAUI.Services;
 
 namespace LibrandriaMAUI.ViewModel;
 
-public partial class RegisterViewModel : ObservableObject
+public partial class RegisterViewModel(UserService userService) : BaseViewModel
 {
     [ObservableProperty]
-    private string username;
+    string? _username;
     [ObservableProperty]
-    private string password;
+    string? _password;
     [ObservableProperty]
-    private string email;
+    string? _email;
     
     [RelayCommand]
     async Task TapBack()
@@ -22,7 +22,12 @@ public partial class RegisterViewModel : ObservableObject
     [RelayCommand]
     async Task TapSubmit()
     {
-        await SQLFunctions.AddNewUser(username, password, email);
-        await Shell.Current.GoToAsync(nameof(LoginPage));
+        if (!(string.IsNullOrEmpty(Username) ||
+              string.IsNullOrEmpty(Password) || 
+              string.IsNullOrEmpty(Email)))
+        {
+            await userService.AddUser(Username, Password, Email);
+            await Shell.Current.GoToAsync(nameof(LoginPage));
+        }
     }
 }

@@ -1,30 +1,35 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using LibrandriaMAUI.Data;
+using LibrandriaMAUI.Services;
 
 namespace LibrandriaMAUI.ViewModel;
 
-public partial class LoginViewModel : ObservableObject
+public partial class LoginViewModel(UserService userService) : BaseViewModel
 {
     [ObservableProperty]
-    string username;
+    string? _username;
     
     [ObservableProperty]
-    string password;
+    string? _password;
     
     [RelayCommand]
-    async Task TapBack()
+    private static async Task TapBack()
     {
         await Shell.Current.GoToAsync("..");
     }
 
     [RelayCommand]
-    async Task TapSubmit()
+    private async Task TapSubmit()
     {
-        await SQLFunctions.GetUserId(username, password);
-        if (DataObjects.CurrentUser is not null)
+        if (!(string.IsNullOrEmpty(Username) || 
+              string.IsNullOrEmpty(Password)))
         {
-            await Shell.Current.GoToAsync(nameof(TermsPage));
+            //TODO change to UserService
+            await userService.GetUser(Username, Password);
+            if (userService.CurrentUser is not null)
+            {
+                await Shell.Current.GoToAsync(nameof(TermsPage));
+            }
         }
     }
 }

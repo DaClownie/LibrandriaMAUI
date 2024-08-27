@@ -1,9 +1,8 @@
-using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
 namespace LibrandriaMAUI.ViewModel;
 
-public partial class MainViewModel : ObservableObject
+public partial class MainViewModel : BaseViewModel
 {
     [RelayCommand]
     async Task TapLogin()

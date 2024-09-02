@@ -3,19 +3,31 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using LibrandriaMAUI.Models;
 using LibrandriaMAUI.Services;
+using LibrandriaMAUI.Pages;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace LibrandriaMAUI.ViewModel;
 
 public partial class TermsViewModel : BaseViewModel
 {
+    
     private static TermService _termService;
-    public TermsViewModel(TermService termService)
+    private static UserService _userService;
+    private static LibDbService _libDbService;
+    public TermsViewModel(TermService termService, UserService userService, 
+        LibDbService libDbService)
     {
         _termService = termService;
+        _userService = userService;
+        _libDbService = libDbService;
     }
-
-    [ObservableProperty] 
-    private ObservableCollection<Term> _terms;
+    
+    // Add or Edit Term Observable Properties
+    [ObservableProperty] private string? _name;
+    [ObservableProperty] private DateTime _startDate;
+    [ObservableProperty] private DateTime _endDate;
+    
+    [ObservableProperty] private ObservableCollection<Term>? _terms;
 
     [RelayCommand]
     private async Task TapTerm(string termId)
@@ -27,13 +39,20 @@ public partial class TermsViewModel : BaseViewModel
     [RelayCommand]
     private async Task TapAdd()
     {
-        //TODO Possibly a flyout? Maybe another page?
+        await Shell.Current.GoToAsync(nameof(AddTermPage));
+    }
+
+    [RelayCommand]
+    private async Task TapSave()
+    {
+        await _libDbService.AddTerm(Name, StartDate, EndDate, _userService.CurrentUser.IdText);
+        await Shell.Current.GoToAsync("..");
     }
 
     [RelayCommand]
     private async Task TapDelete(Term term)
     {
-        bool answer = await App.Current.MainPage.DisplayAlert(
+        bool answer = await Shell.Current.DisplayAlert(
             "Delete confirmation",
             "Are you sure you want to delete the term? This operation is not reversible",
             "OK", "Cancel");

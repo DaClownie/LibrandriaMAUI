@@ -23,4 +23,9 @@ public class UserService(LibrandriaDbContext context)
             .Where(u => u.Username == username && u.Password == password)
             .FirstOrDefaultAsync();
     }
+
+    public bool IsAuthenticated()
+    {
+        return CurrentUser != null;
+    }
 }

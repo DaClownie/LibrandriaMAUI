@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LibrandriaMAUI.Pages.AddTermPage"
+             xmlns:mi="http://www.aathifmahir.com/dotnet/2022/maui/icons"
+             xmlns:model="clr-namespace:LibrandriaMAUI.Models"
+             xmlns:viewmodel="clr-namespace:LibrandriaMAUI.ViewModel"
+             Shell.TabBarIsVisible="True"
+             Shell.NavBarIsVisible="True">
+    <Shell.TitleView>
+        <Frame HorizontalOptions="End"
+               VerticalOptions="Center"
+               BackgroundColor="Transparent"
+               BorderColor="Transparent">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer 
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TermsViewModel}}, Path=TapSaveCommand}" />
+            </Frame.GestureRecognizers>
+            <Image Source="{mi:Material Icon=Save}" 
+                   HeightRequest="50"
+                   WidthRequest="30" />
+        </Frame>
+    </Shell.TitleView>
+    <ContentPage.Content>
+        <Grid x:DataType="model:Term">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+                <VerticalStackLayout
+                    Grid.Row="0">
+                    <Label Text="Term Name:" />
+                    <Entry 
+                        Placeholder="Name"
+                        MaxLength="64" 
+                        Text="{Binding Name}" />
+                </VerticalStackLayout>
+                <VerticalStackLayout
+                    Grid.Row="1">
+                    <Label Text="Start Date:" />
+                    <DatePicker
+                        MinimumDate="01/01/2016"
+                        MaximumDate="12/31/2029" 
+                        Date="{Binding StartDate}" />
+                </VerticalStackLayout>
+                <VerticalStackLayout
+                    Grid.Row="2">
+                    <Label Text="End Date:" />
+                    <DatePicker
+                        MinimumDate="01/01/2016"
+                        MaximumDate="12/31/2029"
+                        Date="{Binding EndDate}" />
+                </VerticalStackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

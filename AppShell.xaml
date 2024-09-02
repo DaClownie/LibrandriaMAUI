@@ -3,13 +3,32 @@
     x:Class="LibrandriaMAUI.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:LibrandriaMAUI"
-    Shell.FlyoutBehavior="Disabled"
-    Title="LibrandriaMAUI">
-
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    xmlns:mi="http://www.aathifmahir.com/dotnet/2022/maui/icons"
+    xmlns:pages="clr-namespace:LibrandriaMAUI.Pages"
+    Title="LibrandriaMAUI"
+    FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="True">
+    <!--<ShellContent
+        Title="MainPage"
+        ContentTemplate="{DataTemplate pages:MainPage}"
+        Route="MainPage" 
+        Shell.FlyoutItemIsVisible="False" 
+        Shell.NavBarIsVisible="False" />-->
+    <TabBar>
+        <Tab Title="Track"
+             Icon="{mi:Material Icon=School}"
+             Route="TermsPage">
+            <ShellContent ContentTemplate="{DataTemplate pages:TermsPage}" />
+        </Tab>
+        <Tab Title="Report"
+             Icon="{mi:Material Icon=ContentPaste}"
+             Route="ReportsPage">
+            <ShellContent ContentTemplate="{DataTemplate pages:ReportsPage}" />
+        </Tab>
+        <Tab Title="Profile"
+             Icon="{mi:Material Icon=ManageAccounts}"
+             Route="ProfilePage">
+            <ShellContent ContentTemplate="{DataTemplate pages:ProfilePage}" />
+        </Tab>
+    </TabBar>
 </Shell>

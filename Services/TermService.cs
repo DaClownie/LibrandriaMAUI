@@ -10,7 +10,9 @@ public class TermService(LibrandriaDbContext context, UserService userService)
     public async Task<List<Term>> GetTermList()
     {
         var list =  await context.Terms
-            .Where(t => t.UserId == userService.CurrentUser!.IdText).ToListAsync();
+            .Where(t => t.UserId == userService.CurrentUser!.IdText)
+            .ToListAsync();
+        list.Sort((a, b) => a.StartDate.CompareTo(b.StartDate));
         return list;
     }
 

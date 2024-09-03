@@ -2,11 +2,11 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LibrandriaMAUI.Pages.AddTermPage"
+             x:Class="LibrandriaMAUI.Pages.EditTermPage"
              xmlns:mi="http://www.aathifmahir.com/dotnet/2022/maui/icons"
              xmlns:model="clr-namespace:LibrandriaMAUI.Models"
              xmlns:viewmodel="clr-namespace:LibrandriaMAUI.ViewModel"
-             x:DataType="viewmodel:AddTermViewModel"
+             x:DataType="viewmodel:EditTermViewModel"
              Shell.TabBarIsVisible="True"
              Shell.NavBarIsVisible="True">
     <Shell.TitleView>

@@ -23,63 +23,80 @@
                    WidthRequest="30" />
         </Frame>
     </Shell.TitleView>
-    <CollectionView
-        ItemsSource="{Binding Terms}"
-        SelectionMode="None">
-        <CollectionView.ItemTemplate>
-            <DataTemplate x:DataType="model:Term">
-                <SwipeView>
-                    <SwipeView.RightItems>
-                        <SwipeItems>
-                            <SwipeItem Text="Delete" 
-                                       BackgroundColor="Red"
-                                       Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TermsViewModel}}, Path=TapDeleteCommand}" 
-                                       CommandParameter="{Binding .}" />
-                        </SwipeItems>
-                    </SwipeView.RightItems>
-                    <SwipeView.LeftItems>
-                        <SwipeItems>
-                            <SwipeItem Text="Edit" 
-                                       BackgroundColor="Orange"
-                                       Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TermsViewModel}}, Path=TapEditCommand}" 
-                                       CommandParameter="{Binding IdText}" />
-                        </SwipeItems>
-                    </SwipeView.LeftItems>
-                    <Grid>
-                        <Frame>
-                            <Frame.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TermsViewModel}}, Path=TapTermCommand}"
-                                                      CommandParameter="{Binding IdText}" />
-                            </Frame.GestureRecognizers>
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto" />
-                                    <RowDefinition Height="Auto" />
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="Auto"/>
-                                    <ColumnDefinition Width="*"/>
-                                </Grid.ColumnDefinitions>
-                                <Label Text="{Binding Name}"
-                                       Style="{StaticResource SubHeadline}" 
-                                       Grid.Row="0" 
-                                       Grid.ColumnSpan="3" />
-                                <Label Text="{Binding StartDate.Date, StringFormat='{0:yyyy/MM/dd}'}" 
-                                       Grid.Row="1"
-                                       Grid.Column="0"
-                                       HorizontalTextAlignment="End" />
-                                <Label Text=" - "
-                                       Grid.Row="1"
-                                       Grid.Column="1" />
-                                <Label Text="{Binding EndDate.Date, StringFormat='{0:yyyy/MM/dd}'}"
-                                       Grid.Row="1"
-                                       Grid.Column="2" />
-                            </Grid>
-                        </Frame>
-                    </Grid>
-                </SwipeView>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-    </CollectionView>
+    <Grid
+        Margin="0,20"
+        RowDefinitions="Auto, *">
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            Grid.Row="0">
+            <Image
+                Source="wgulogo.png"
+                HeightRequest="100"
+                Aspect="AspectFit"
+                SemanticProperties.Description="WGU Logo" />
+        </VerticalStackLayout>
+        <CollectionView
+            ItemsSource="{Binding Terms}"
+            SelectionMode="None"
+            Grid.Row="1">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Term">
+                    <SwipeView>
+                        <SwipeView.LeftItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Edit" 
+                                           BackgroundColor="Orange"
+                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TermsViewModel}}, Path=TapEditCommand}" 
+                                           CommandParameter="{Binding .}" 
+                                           IconImageSource="{mi:Material Icon=Edit}" />
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Delete" 
+                                           BackgroundColor="Red"
+                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TermsViewModel}}, Path=TapDeleteCommand}" 
+                                           CommandParameter="{Binding .}" 
+                                           IconImageSource="{mi:Material Icon=DeleteForever}"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Grid>
+                            <Frame>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:TermsViewModel}}, Path=TapTermCommand}"
+                                                          CommandParameter="{Binding IdText}" />
+                                </Frame.GestureRecognizers>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding Name}"
+                                           Style="{StaticResource SubHeadline}" 
+                                           Grid.Row="0" 
+                                           Grid.ColumnSpan="3" />
+                                    <Label Text="{Binding StartDate.Date, StringFormat='{0:yyyy/MM/dd}'}" 
+                                           Grid.Row="1"
+                                           Grid.Column="0"
+                                           HorizontalTextAlignment="End" />
+                                    <Label Text=" - "
+                                           Grid.Row="1"
+                                           Grid.Column="1" />
+                                    <Label Text="{Binding EndDate.Date, StringFormat='{0:yyyy/MM/dd}'}"
+                                           Grid.Row="1"
+                                           Grid.Column="2" />
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
 </ContentPage>

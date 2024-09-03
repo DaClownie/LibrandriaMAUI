@@ -2,11 +2,10 @@ using LibrandriaMAUI.ViewModel;
 
 namespace LibrandriaMAUI.Pages;
 
-public partial class AddTermPage : ContentPage
+public partial class EditTermPage : ContentPage
 {
-    public AddTermPage(AddTermViewModel vm)
+    public EditTermPage(EditTermViewModel vm)
     {
-        
         InitializeComponent();
         BindingContext = vm;
     }

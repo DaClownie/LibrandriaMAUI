@@ -29,9 +29,6 @@ namespace LibrandriaMAUI
 			// Auth Service
 			builder.Services.AddSingleton<UserService>();
 			
-			// Data Service
-			builder.Services.AddSingleton<LibDbService>();
-			
 			// Login
 			builder.Services.AddTransient<LoginPage>();
 			builder.Services.AddTransient<LoginViewModel>();
@@ -48,10 +45,17 @@ namespace LibrandriaMAUI
 			builder.Services.AddTransient<RegisterViewModel>();
 			
 			// Terms
+			builder.Services.AddSingleton<TermService>();
+			
 			builder.Services.AddSingleton<TermsPage>();
 			builder.Services.AddSingleton<TermsViewModel>();
-			builder.Services.AddSingleton<TermService>();
-			builder.Services.AddSingleton<AddTermPage>();
+			
+			builder.Services.AddTransient<AddTermPage>();
+			builder.Services.AddTransient<AddTermViewModel>();
+			
+			builder.Services.AddTransient<EditTermPage>();
+			builder.Services.AddTransient<EditTermViewModel>();
+			
 			builder.Services.AddSingleton<ReportsPage>();
 			builder.Services.AddSingleton<ProfilePage>();
 			

@@ -10,22 +10,16 @@ namespace LibrandriaMAUI.ViewModel;
 
 public partial class TermsViewModel : BaseViewModel
 {
-    
     private static TermService _termService;
-    private static UserService _userService;
-    private static LibDbService _libDbService;
-    public TermsViewModel(TermService termService, UserService userService, 
-        LibDbService libDbService)
+    public TermsViewModel(TermService termService)
     {
         _termService = termService;
-        _userService = userService;
-        _libDbService = libDbService;
     }
     
     // Add or Edit Term Observable Properties
-    [ObservableProperty] private string? _name;
-    [ObservableProperty] private DateTime _startDate;
-    [ObservableProperty] private DateTime _endDate;
+    [ObservableProperty] private string? _name = string.Empty;
+    [ObservableProperty] private DateTime _startDate = DateTime.Now;
+    [ObservableProperty] private DateTime _endDate = DateTime.Now;
     
     [ObservableProperty] private ObservableCollection<Term>? _terms;
 
@@ -33,7 +27,7 @@ public partial class TermsViewModel : BaseViewModel
     private async Task TapTerm(string termId)
     {
         await Shell.Current
-            .GoToAsync($"{nameof(CoursesPage)}?TermId={termId}");
+            .GoToAsync(nameof(CoursesPage));
     }
 
     [RelayCommand]
@@ -43,16 +37,9 @@ public partial class TermsViewModel : BaseViewModel
     }
 
     [RelayCommand]
-    private async Task TapSave()
-    {
-        await _libDbService.AddTerm(Name, StartDate, EndDate, _userService.CurrentUser.IdText);
-        await Shell.Current.GoToAsync("..");
-    }
-
-    [RelayCommand]
     private async Task TapDelete(Term term)
     {
-        bool answer = await Shell.Current.DisplayAlert(
+        var answer = await Shell.Current.DisplayAlert(
             "Delete confirmation",
             "Are you sure you want to delete the term? This operation is not reversible",
             "OK", "Cancel");
@@ -64,11 +51,12 @@ public partial class TermsViewModel : BaseViewModel
         //TODO Handle Delete logic, need a confirmation popup, cascading deletes
         //of all courses/assessments. Keep instructors.
     }
-
+    
     [RelayCommand]
-    private async Task TapEdit(string termId)
+    private async Task TapEdit(Term term)
     {
-        //TODO Handle edit logic, possibly a flyout like Add? What's a flyout?
+        _termService.CurrentTerm = term;
+        await Shell.Current.GoToAsync(nameof(EditTermPage));
     }
 
     public async Task OnLoaded()

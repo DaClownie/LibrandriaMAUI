@@ -10,13 +10,13 @@ public class TermService(LibrandriaDbContext context, UserService userService)
     public async Task<List<Term>> GetTermList()
     {
         var list =  await context.Terms
-            .Where(t => t.UserId == userService.CurrentUser!.IdText)
+            .Where(t => t.UserId == userService.CurrentUser.IdText)
             .ToListAsync();
         list.Sort((a, b) => a.StartDate.CompareTo(b.StartDate));
         return list;
     }
 
-    private async Task GetTerm(string termId)
+    public async Task GetTerm(string termId)
     {
         CurrentTerm = (await GetTermList())
             .Find(t => t.IdText == termId);
@@ -25,7 +25,13 @@ public class TermService(LibrandriaDbContext context, UserService userService)
 
     public async Task AddTerm(Term term)
     {
-        await context.Terms.AddAsync(term);
+        context.Terms.Add(term);
+        await context.SaveChangesAsync();
+    }
+
+    public async Task EditTerm(Term term)
+    {
+        context.Terms.Update(term);
         await context.SaveChangesAsync();
     }
 
